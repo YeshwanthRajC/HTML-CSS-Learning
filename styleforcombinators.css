@@ -1,0 +1,13 @@
+#a{
+    border: 3px solid black;
+}
+
+
+/* Descendant combinator: targets <p> elements inside #a. */
+#a > p{
+    background-color: yellow;
+}
+
+
+
+

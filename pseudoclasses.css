@@ -1,0 +1,9 @@
+.container p{
+    background-color: yellow;
+    color: blue;
+    display: none;
+}
+
+.container:hover > p {
+    display: inline-block;
+}

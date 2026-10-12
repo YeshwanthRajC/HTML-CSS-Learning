@@ -1,0 +1,17 @@
+.container{
+    background-color: yellow;
+    text-align: center;
+    margin:auto;
+    width: 50%;
+}
+
+.container a{
+    color:black;
+    padding:16px;
+}
+
+.container a.active{
+    background-color: #4CAF50;
+    border-radius: 5px;
+    border-spacing: 2px;
+}

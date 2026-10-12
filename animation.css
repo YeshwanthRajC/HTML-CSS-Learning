@@ -1,0 +1,25 @@
+.container{
+    border: 3px solid black;
+    box-shadow: 5px 5px 10px black;
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+   
+
+}
+
+.container:hover{
+     animation-name:slideIn;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+
+.container h1{
+    font-size: 100px;
+    text-align: center;
+}
+
+@keyframes slideIn{
+   50%{transform: translateX(100px)}
+}
